@@ -311,3 +311,13 @@ https://fonts.google.com/
 ```<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">```
 
 If the user don't have this font already installed, browser take them to this location and grab those fonts. 
+
+## CSS Sizing
+16px = 100% = 1em
+
+```
+font-size: 2em;
+```
+Font-size get inherited and added it to the one specified in the parent element, if we use dynamic units like em. For example, in body we specify font-size: 2em; and in h1 we specify font-size: 5.625em; Now we can see that the h1 element become huge. It's because font-size is inherited and added on top of whatever it got from parent(in this case it's body).
+
+In order to avoid this, in CSS3, there is unit called rem(root em) which ignore all of the parent settings for the font size and jus set it to this relative to the root. So, the advantage of root em is that it doesn't get affected by upstream size changes.
