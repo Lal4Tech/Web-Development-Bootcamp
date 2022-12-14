@@ -321,3 +321,25 @@ font-size: 2em;
 Font-size get inherited and added it to the one specified in the parent element, if we use dynamic units like em. For example, in body we specify font-size: 2em; and in h1 we specify font-size: 5.625em; Now we can see that the h1 element become huge. It's because font-size is inherited and added on top of whatever it got from parent(in this case it's body).
 
 In order to avoid this, in CSS3, there is unit called rem(root em) which ignore all of the parent settings for the font size and jus set it to this relative to the root. So, the advantage of root em is that it doesn't get affected by upstream size changes.
+
+
+## CSS Float and Clear
+**Float** make the text wrap around another image.
+
+eg:
+```
+.img {
+    float: right;
+}
+```
+This will keep the image on right and text on left and bottom.
+
+**Clear** prevent any other wrapped element comes of it side mentioned(left, right).
+
+eg:
+```
+.text-sample {
+    clear: left;
+}
+```
+prevent any other element appear left of element with class name *text-sample*.
