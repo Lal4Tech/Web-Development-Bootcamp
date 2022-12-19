@@ -1,4 +1,5 @@
-<!-- Table -->
+## Table
+```
 <table>
     <thead>
         <tr>
@@ -24,18 +25,18 @@
         
     </tfoot>
 </table>
+```
 
-<!-- Form -->
+## Form
+```
 <form action="index.html" method="post">
     <label>Name:</label>
     <input type="text">
     <input type="submit">
 </form>
+```
 
-<!-- Publish pages using GitHub pages -->
-<!-- 
-    - Upload all files to a repo
-    - Go to repo settings -> publish pages
-    - Choose the required branch
--->
-
+## Publish pages using GitHub pages
+- Upload all files to a repo
+- Go to repo settings -> publish pages
+- Choose the required branch

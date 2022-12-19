@@ -1,6 +1,7 @@
-<a href="https://www.appbrewery.co/p/web-development-course-resources ">Resources</a>
+[Resources](https://www.appbrewery.co/p/web-development-course-resources)
 
-
+## Sample Code
+```
 <center>
     <!-- HTML element and attribute. Refer: https://devdocs.io/html/element/hr -->
     <hr size="3" noshade>
@@ -12,12 +13,16 @@
     <br>
     
 </center>
+```
     
+## Comment
+```
 <!-- This is a comment-->
+```
 
-<!-- Basic structure of a HTML file -->
+## Basic structure of a HTML file
 
-<!--
+```
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -31,25 +36,33 @@ Shows the name on tab
     <body>
     All the contents of website goes here
     </body>
-</html>-->
+</html>
+```
 
-
-<!-- Lists -->
-<!-- Unordered Lists -->
+## Lists
+### Unordered Lists
+```
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
 <ul>
-<!-- Ordered Lists -->
+```
+
+### Ordered Lists
+```
 <ol>
     <li>Item 1</li>
     <li>Item 2</li>
 <ol>
-
-<!-- Image -->
-<!-- self closing tag -->
+```
+## Image
+self closing tag
+```
 <img src="test.png">
+```
 
-<!-- Anchor tag -->
+## Anchor tag
+```
 <a href="https://www.udemy.com">Udemy</a>
 <a href="local_file.html">Local HTML file</a>
+```

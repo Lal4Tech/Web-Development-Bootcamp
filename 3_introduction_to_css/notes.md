@@ -1,7 +1,10 @@
-<!-- Inline css-->
+## Inline css
+```
 <body style="background-color: blue;"></body>
+```
 
-<!-- Internal css-->
+## Internal css
+```
 <head>
     <style>
         body {
@@ -9,35 +12,36 @@
         }
     </style>
 </head>
+```
 
-<!-- Default CSS applied by the browser 
-We have to overwrite to change those parameters
--->
-
-<!-- External css-->
+## External css
+```
 <head>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+```
 
-<!-- CSS preferences
+## CSS preferences
 Inline >> Internal >> External 
--->
 
+## Default CSS applied by the browser
+For some elements browsers apply some default css properties. We have to overwrite to change those parameters.
 
-<!-- CSS syntax
+## CSS syntax
+```
 selector {
     property: value;
 }
+```
+*selector ::: who*
+*property ::: what*
+*value ::: how*
 
-selector ::: who
-property ::: what
-value ::: how
--->
-
-<!-- CSS selector
+## CSS selectors
 Preference: ID selector > Tag selector
 id should be unique. But class can be used to group multiple elements(same class value for multiple elements possible)
-/**************************TAG SELECTORS**************************/
+### TAG selectors
+```
 body {
     background-color: rgb(135, 154, 206);
 }
@@ -47,11 +51,13 @@ h1 {
     font-size: 100px;
 }
 
-/*img {
+img {
     background-color: red;
-}*/
+}
+```
 
-/**************************CLASS SELECTORS**************************/
+### CLASS selectors
+```
 .bacon {
     background-color: green;
 }
@@ -59,21 +65,22 @@ h1 {
 .eggplant {
     background-color: red;
 }
+```
 
-/**************************ID SELECTORS**************************/
-
+### ID selectors
+```
 #heading {
     color: blue;
 }
+```
 
-
-Notes:
+**Notes**:
 - multiple classes for one element possible
 - But multiple ids for one element is not possible
 
-Psuedo classes
-
+## Pseudo classes
+```
 img:hover {
     background-color: gold;
 }
--->
+```
