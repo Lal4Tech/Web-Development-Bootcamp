@@ -72,3 +72,86 @@ Languages:
 </nav>
 ```
 
+## Bootstrap Grid Layout System
+
+Doc: [Grid Layout](https://getbootstrap.com/docs/5.2/layout/grid/)
+
+```html
+<!-- 2 columns each taking 50% of width -->
+<div class="row">
+    <div class="col" style="background-color: red; border: 1px solid;">
+        col
+    </div>
+    <div class="col" style="background-color: red; border: 1px solid;">
+        col
+    </div>
+</div>
+```
+
+There are 12 template columns available per row
+
+```html
+<!-- Each column is taking 6 units(out of 12). But non-responsive -->
+<div class="row">
+    <div class="col-6" style="background-color: green; border: 1px solid;">
+        col-6
+    </div>
+    <div class="col-6" style="background-color: green; border: 1px solid;">
+        col-3
+    </div>
+</div>
+```
+
+To make it responsive to view ports:
+
+```html
+<!-- Each column is taking 6 units(out of 12) for vew port size from medium size. -->
+<div class="row">
+    <div class="col-md-6" style="background-color: yellow; border: 1px solid;">
+        col-md-6
+    </div>
+    <div class="col-md-6" style="background-color: yellow; border: 1px solid;">
+        col-md-6
+    </div>
+</div>
+```
+
+**col-md-6** means that we should have 6 unit column on any view port size from medium/tablet size or upwards. But for anything smaller than that, such as on mobile phone, they will take up the full width.
+
+**col-lg-3** means anything smaller(tablet/mobile) than desktop, column will take 100% of width.
+
+```html
+<div class="row">
+    <div class="col-lg-3" style="background-color: yellow; border: 1px solid;">
+        col-lg-3
+    </div>
+    <div class="col-lg-3" style="background-color: yellow; border: 1px solid;">
+        col-lg-3
+    </div>
+    <div class="col-lg-3" style="background-color: yellow; border: 1px solid;">
+        col-lg-3
+    </div>
+    <div class="col-lg-3" style="background-color: yellow; border: 1px solid;">
+        col-lg-3
+    </div>
+</div>
+```
+
+**col-lg-3 col-md-4 col-sm-6**: Column take quarter of width when we are on desktop or larger, but only one third of width  when we are on tablet, and only half of the width when we are on mobile.
+
+```html
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid;">
+        col-lg-3 col-md-4 col-sm-6
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid;">
+        col-lg-3 col-md-4 col-sm-6
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid;">
+        col-lg-3 col-md-4 col-sm-6
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid;">
+        col-lg-3 col-md-4 col-sm-6
+    </div>
+</div>
+```
