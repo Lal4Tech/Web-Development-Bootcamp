@@ -155,3 +155,37 @@ To make it responsive to view ports:
     </div>
 </div>
 ```
+
+## Bootstrap Containers
+
+**Official doc** : [Containers](https://getbootstrap.com/docs/5.2/layout/containers/)
+
+### Default container
+
+is a responsive, fixed-width container, meaning its max-width changes at each breakpoint.
+
+```html
+<div class="container">
+  <!-- Content here -->
+</div>
+```
+
+### Fluid containers
+
+Use .container-fluid for a full width container, spanning the entire width of the viewport.
+
+```html
+<div class="container-fluid">
+  ...
+</div>
+```
+
+```html
+<div class="container" style="background-color: red;">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<div class="container-fluid" style="background-color: yellow;">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+```
