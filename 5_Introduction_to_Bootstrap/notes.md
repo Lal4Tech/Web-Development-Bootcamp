@@ -190,4 +190,8 @@ Use .container-fluid for a full width container, spanning the entire width of th
 </div>
 ```
 
-### Fluid containers
+## Bootstrap Buttons & Font Awesome
+
+**Official doc** : [Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)
+
+[Font Awesome: Icon library and toolkit](https://fontawesome.com/)
